@@ -40,6 +40,7 @@ const Announcements = () => {
 	const [searchParams, setSearchParams] = useSearchParams();
 	const navigate = useNavigate();
 	const [testId, setTestId] = useState<number | null>(null);
+
 	const handleOpenPart = (value: number) => {
 		const valueString = value.toString();
 		searchParams.set('page', valueString);

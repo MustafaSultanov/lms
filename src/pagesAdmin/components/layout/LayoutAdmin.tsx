@@ -112,4 +112,4 @@ const LayoutAdmin = () => {
 	);
 };
 
-export default LayoutAdmin;
+export default LayoutAdmin

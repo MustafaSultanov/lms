@@ -12,7 +12,7 @@
 	background: #eff0f4;
 }
 .Main_div .get_test_name_test .get_test_time {
-	color: blue;
+	color: #fb923c;
 }
 .Main_div .testing_container {
 	padding-top: 20px;
@@ -106,7 +106,7 @@
 }
 .input input[type='checkbox']:checked + label::before {
 	content: '✓';
-	background-color: #1976d2;
+	background-color: #fb923c;
 	display: flex;
 	justify-content: center;
 	align-items: center;

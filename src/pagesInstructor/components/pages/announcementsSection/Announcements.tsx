@@ -103,6 +103,7 @@ const Announcements = () => {
 					<div className={scss.add_button_name}>
 						<div className={scss.course_button_modal}>
 							<Button
+								// color="#fb923c"
 								size="large"
 								className={scss.button}
 								onClick={handleOpenAnnouncement}

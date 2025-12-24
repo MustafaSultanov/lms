@@ -139,7 +139,7 @@ const SupHeaderMobile = () => {
 						PaperProps={{
 							style: {
 								boxShadow: 'none',
-								border: '1px solid #336fff',
+								border: '1px solid #fb923cff',
 								width: '200px',
 								background: '#dde9f9',
 								borderRadius: '10px'
@@ -154,7 +154,7 @@ const SupHeaderMobile = () => {
 							style={{
 								display: 'flex',
 								gap: '10px',
-								color: '#1976d2',
+								color: '#fb923c',
 								fontSize: '18px',
 								fontWeight: '600',
 								alignItems: 'center'
@@ -242,7 +242,7 @@ const SupHeaderMobile = () => {
 						PaperProps={{
 							style: {
 								boxShadow: 'none',
-								border: '1px solid #336fff',
+								border: '1px solid #fb923cff',
 								width: '200px',
 								background: '#dde9f9',
 								borderRadius: '10px'
@@ -257,7 +257,7 @@ const SupHeaderMobile = () => {
 							style={{
 								display: 'flex',
 								gap: '10px',
-								color: '#1976d2',
+								color: '#fb923c',
 								fontSize: '18px',
 								fontWeight: '600',
 								alignItems: 'center'
@@ -335,7 +335,7 @@ const SupHeaderMobile = () => {
 						PaperProps={{
 							style: {
 								boxShadow: 'none',
-								border: '1px solid #336fff',
+								border: '1px solid #fb923cff',
 								width: '200px',
 								background: '#dde9f9',
 								borderRadius: '10px'
@@ -350,7 +350,7 @@ const SupHeaderMobile = () => {
 							style={{
 								display: 'flex',
 								gap: '10px',
-								color: '#1976d2',
+								color: '#fb923cd2',
 								fontSize: '18px',
 								fontWeight: '600',
 								alignItems: 'center'

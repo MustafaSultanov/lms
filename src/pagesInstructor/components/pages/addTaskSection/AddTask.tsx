@@ -195,7 +195,7 @@ const AddTask: React.FC = () => {
 									alignItems: 'center'
 								}}
 							>
-								<p style={{ color: '#1F6ED4' }}>Создать задание</p>
+								<p style={{ color: '#fb923c' }}>Создать задание</p>
 								<div className={scss.save_file}>
 									<input
 										type="file"

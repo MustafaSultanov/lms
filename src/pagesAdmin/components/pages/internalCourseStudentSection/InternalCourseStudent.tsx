@@ -112,7 +112,7 @@ const InternalCourses = () => {
 																	className={
 																		index % 2 === 1
 																			? scss.table_alternate_row
-																			: '' || scss.internal
+																			: scss.internal
 																	}
 																>
 																	<td

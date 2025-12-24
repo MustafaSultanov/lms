@@ -201,13 +201,13 @@ const SearchModal: FC<ModalProps> = ({ openModalEdit, handleClose }) => {
 									onClick={handleDeleteSearch}
 									disabled={false}
 									variant="outlined"
-									style={{ padding: '10px', borderRadius: '8px' }}
+									style={{ padding: '10px', borderRadius: '8px' , border: '1px solid #fb923c',color: '#fb923c' }}
 								>
 									Сбросить фильтры
 								</Button>
 								<Button
 									variant="contained"
-									style={{ padding: '10px', borderRadius: '8px' }}
+									style={{ padding: '10px', borderRadius: '8px' , border: '1px solid #fb923c' ,	background: '#fb923c', color: '#fff' }}
 									type="button"
 									onClick={handleSubmitFormButton}
 									disabled={false}

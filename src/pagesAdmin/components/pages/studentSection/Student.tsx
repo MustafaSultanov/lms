@@ -166,7 +166,7 @@ const Student: React.FC = () => {
 								</Button>
 								<Button
 									size="large"
-									className={scss.button}
+									className={scss.button2}
 									variant="contained"
 									onClick={handleStudentOpen}
 								>
@@ -224,7 +224,7 @@ const Student: React.FC = () => {
 																className={
 																	index % 2 === 1
 																		? scss.TableAlternateRow
-																		: '' || scss.StudentContainerSecond
+																		: scss.StudentContainerSecond
 																}
 															>
 																<td

@@ -97,13 +97,13 @@ const InternalStudents = () => {
 														{data?.objects &&
 															data?.objects.map((item, index) => (
 																<tr
-																	key={item.id}
-																	className={
-																		index % 2 === 1
-																			? scss.table_alternate_row
-																			: '' || scss.internal
-																	}
-																>
+																																	key={item.id}
+																																	className={
+																																		index % 2 === 1
+																																			? scss.table_alternate_row
+																																			: scss.internal
+																																	}
+																																>
 																	<td>
 																		{index + 1 + (openPart - 1) * openPart}
 																	</td>

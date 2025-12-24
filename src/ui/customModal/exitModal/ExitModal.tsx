@@ -45,7 +45,7 @@ const ExitModal: React.FC<DeleteProps> = ({ handleClose, openExit }) => {
 							>
 								<h3 style={{ color: '#5f5f5f' }}>Выход</h3>
 								<h4 style={{ color: '#848484' }}>
-									Вы уверены что хотите выйти из Peaksoft LMS ?
+									Вы уверены что хотите выйти из Okurmen  ?
 								</h4>
 							</DialogContentText>
 						</DialogContent>

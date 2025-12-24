@@ -55,6 +55,7 @@
 			cursor: pointer;
 
 			.peaksoft1_url {
+				color: #fb923c;
 				padding-inline: 12px;
 				&.active {
 					display: none;
@@ -89,13 +90,13 @@
 				border-radius: 0.8rem;
 				transition: all 0.2s ease;
 				&:hover {
-					background: #dde9f9;
-					color: #1f6ed4;
+					background: #ffe4ce;
+					color: #fb923c;
 					z-index: 999999 !important;
 				}
 				&.active {
-					background: #dde9f9;
-					color: #1f6ed4;
+					background: #fb923c;
+					color: #fff;
 					z-index: 999999 !important;
 				}
 
@@ -134,7 +135,7 @@
 			}
 			&:hover .tooltip {
 				background: #dde9f9;
-				color: #1f6ed4;
+				color: #fb923cd4;
 				opacity: 1;
 				z-index: 99999999 !important;
 			}

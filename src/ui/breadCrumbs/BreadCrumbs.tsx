@@ -31,7 +31,7 @@ export default function BasicBreadcrumbs() {
 						aria-label="breadcrumb"
 						separator={<IconChevronRight width={20} stroke={2} />}
 					>
-						<Link style={{ color: '#1976d2' }} to="/admin/courses">
+						<Link style={{ color: '#fb923c' }} to="/admin/courses">
 							Курсы
 						</Link>
 						<Link style={{ color: 'black' }} to={`#`}>
@@ -49,13 +49,13 @@ export default function BasicBreadcrumbs() {
 						separator={<IconChevronRight stroke={2} width={20} />}
 					>
 						<Link
-							style={{ fontSize: '14px', color: '#1976d2' }}
+							style={{ fontSize: '14px', color: '#fb923c' }}
 							to="/instructor/course"
 						>
 							Мои курсы
 						</Link>
 						<Link
-							style={{ fontSize: '14px', color: '#1976d2' }}
+							style={{ fontSize: '14px', color: '#fb923c' }}
 							to={`/instructor/course/${courseId}/materials`}
 						>
 							{item}
@@ -64,7 +64,7 @@ export default function BasicBreadcrumbs() {
 							style={
 								pathname === `/instructor/course/${courseId}/materials`
 									? { fontSize: '14px', color: 'black' }
-									: { fontSize: '14px', color: '#1976d2' }
+									: { fontSize: '14px', color: '#fb923c' }
 							}
 							to={`/instructor/course/${courseId}/materials`}
 						>
@@ -76,7 +76,7 @@ export default function BasicBreadcrumbs() {
 								aria-label="breadcrumb"
 								separator={<IconChevronRight stroke={2} width={20} />}
 							>
-								<Link style={{ fontSize: '14px', color: '#1976d2' }} to={'#'}>
+								<Link style={{ fontSize: '14px', color: '#fb923c' }} to={'#'}>
 									<Tooltip title={taskName}>
 										<p
 											style={{
@@ -101,7 +101,7 @@ export default function BasicBreadcrumbs() {
 								aria-label="breadcrumb"
 								separator={<IconChevronRight width={20} stroke={2} />}
 							>
-								<Link style={{ fontSize: '14px', color: '#1976d2' }} to={'#'}>
+								<Link style={{ fontSize: '14px', color: '#fb923c' }} to={'#'}>
 									<Tooltip title={taskName}>
 										<p
 											style={{
@@ -126,7 +126,7 @@ export default function BasicBreadcrumbs() {
 								aria-label="breadcrumb"
 								separator={<IconChevronRight width={20} stroke={2} />}
 							>
-								<Link style={{ fontSize: '14px', color: '#1976d2' }} to={'#'}>
+								<Link style={{ fontSize: '14px', color: '#fb923c' }} to={'#'}>
 									<Tooltip title={taskName}>
 										<p
 											style={{
@@ -151,7 +151,7 @@ export default function BasicBreadcrumbs() {
 								aria-label="breadcrumb"
 								separator={<IconChevronRight width={20} stroke={2} />}
 							>
-								<Link style={{ fontSize: '14px', color: '#1976d2' }} to={'#'}>
+								<Link style={{ fontSize: '14px', color: '#fb923c' }} to={'#'}>
 									<Tooltip title={taskName}>
 										<p
 											style={{
@@ -176,7 +176,7 @@ export default function BasicBreadcrumbs() {
 								aria-label="breadcrumb"
 								separator={<IconChevronRight width={20} stroke={2} />}
 							>
-								<Link style={{ fontSize: '14px', color: '#1976d2' }} to={'#'}>
+								<Link style={{ fontSize: '14px', color: '#fb923c' }} to={'#'}>
 									<Tooltip title={taskName}>
 										<p
 											style={{
@@ -201,7 +201,7 @@ export default function BasicBreadcrumbs() {
 								aria-label="breadcrumb"
 								separator={<IconChevronRight width={20} stroke={2} />}
 							>
-								<Link style={{ fontSize: '14px', color: '#1976d2' }} to={'#'}>
+								<Link style={{ fontSize: '14px', color: '#fb923c' }} to={'#'}>
 									<Tooltip title={taskName}>
 										<p
 											style={{
@@ -216,7 +216,7 @@ export default function BasicBreadcrumbs() {
 									</Tooltip>
 								</Link>
 								<Link
-									style={{ fontSize: '14px', color: '#1976d2' }}
+									style={{ fontSize: '14px', color: '#fb923c' }}
 									to={`/instructor/course/${courseId}/materials/${lessonId}/test`}
 								>
 									Тест
@@ -232,7 +232,7 @@ export default function BasicBreadcrumbs() {
 								aria-label="breadcrumb"
 								separator={<IconChevronRight width={20} stroke={2} />}
 							>
-								<Link style={{ fontSize: '14px', color: '#1976d2' }} to={'#'}>
+								<Link style={{ fontSize: '14px', color: '#fb923c' }} to={'#'}>
 									<Tooltip title={taskName}>
 										<p
 											style={{
@@ -247,7 +247,7 @@ export default function BasicBreadcrumbs() {
 									</Tooltip>
 								</Link>
 								<Link
-									style={{ fontSize: '14px', color: '#1976d2' }}
+									style={{ fontSize: '14px', color: '#fb923c' }}
 									to={`/instructor/course/${courseId}/materials/${lessonId}/test`}
 								>
 									Тест
@@ -266,7 +266,7 @@ export default function BasicBreadcrumbs() {
 									aria-label="breadcrumb"
 									separator={<IconChevronRight width={20} stroke={2} />}
 								>
-									<Link style={{ fontSize: '14px', color: '#1976d2' }} to={'#'}>
+									<Link style={{ fontSize: '14px', color: '#fb923c' }} to={'#'}>
 										<Tooltip title={taskName}>
 											<p
 												style={{
@@ -281,7 +281,7 @@ export default function BasicBreadcrumbs() {
 										</Tooltip>
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/instructor/course/${courseId}/materials/${lessonId}/lesson`}
 									>
 										Задание
@@ -327,7 +327,7 @@ export default function BasicBreadcrumbs() {
 						separator={<IconChevronRight width={20} stroke={2} />}
 					>
 						<Link
-							style={{ fontSize: '14px', color: '#1976d2' }}
+							style={{ fontSize: '14px', color: '#fb923c' }}
 							to={`/courses`}
 						>
 							Мои курсы
@@ -350,19 +350,19 @@ export default function BasicBreadcrumbs() {
 									separator={<IconChevronRight width={20} stroke={2} />}
 								>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										{item}
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										Материалы
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials/${lessonId}/video`}
 									>
 										{taskName}
@@ -396,19 +396,19 @@ export default function BasicBreadcrumbs() {
 									separator={<IconChevronRight width={20} stroke={2} />}
 								>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										{item}
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										Материалы
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials/${lessonId}/video`}
 									>
 										{taskName}
@@ -433,25 +433,25 @@ export default function BasicBreadcrumbs() {
 									separator={<IconChevronRight width={20} stroke={2} />}
 								>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										{item}
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										Материалы
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials/${lessonId}/video`}
 									>
 										{taskName}
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials/${lessonId}/lesson`}
 									>
 										Задание
@@ -470,19 +470,19 @@ export default function BasicBreadcrumbs() {
 									separator={<IconChevronRight width={20} stroke={2} />}
 								>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										{item}
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										Материалы
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials/${lessonId}/video`}
 									>
 										{taskName}
@@ -501,19 +501,19 @@ export default function BasicBreadcrumbs() {
 									separator={<IconChevronRight width={20} stroke={2} />}
 								>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										{item}
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										Материалы
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials/${lessonId}/video`}
 									>
 										{taskName}
@@ -532,19 +532,19 @@ export default function BasicBreadcrumbs() {
 									separator={<IconChevronRight width={20} stroke={2} />}
 								>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										{item}
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										Материалы
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials/${lessonId}/video`}
 									>
 										{taskName}
@@ -565,25 +565,25 @@ export default function BasicBreadcrumbs() {
 										separator={<IconChevronRight width={20} stroke={2} />}
 									>
 										<Link
-											style={{ fontSize: '14px', color: '#1976d2' }}
+											style={{ fontSize: '14px', color: '#fb923c' }}
 											to={`/courses/${coursesId}/materials`}
 										>
 											{item}
 										</Link>
 										<Link
-											style={{ fontSize: '14px', color: '#1976d2' }}
+											style={{ fontSize: '14px', color: '#fb923c' }}
 											to={`/courses/${coursesId}/materials/${lessonId}/video`}
 										>
 											Материалы
 										</Link>
 										<Link
-											style={{ fontSize: '14px', color: '#1976d2' }}
+											style={{ fontSize: '14px', color: '#fb923c' }}
 											to={`/courses/${coursesId}/materials/${lessonId}/video`}
 										>
 											{taskName}
 										</Link>
 										<Link
-											style={{ fontSize: '14px', color: '#1976d2' }}
+											style={{ fontSize: '14px', color: '#fb923c' }}
 											to={`#`}
 										>
 											Тест
@@ -602,19 +602,19 @@ export default function BasicBreadcrumbs() {
 									separator={<IconChevronRight width={20} stroke={2} />}
 								>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials`}
 									>
 										{item}
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials/${lessonId}/video`}
 									>
 										Материалы
 									</Link>
 									<Link
-										style={{ fontSize: '14px', color: '#1976d2' }}
+										style={{ fontSize: '14px', color: '#fb923c' }}
 										to={`/courses/${coursesId}/materials/${lessonId}/video`}
 									>
 										{taskName}

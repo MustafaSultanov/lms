@@ -13,7 +13,7 @@
 	width: 100%;
 	height: 68px;
 	padding: 20px;
-	background: #3772ff;
+	background: #fb923c;
 	color: #fff;
 	border-top-right-radius: 10px !important;
 	border-top-left-radius: 10px !important;
@@ -106,7 +106,7 @@
 	padding-inline: 10px;
 }
 .Main_div .get_test_name_test .get_test_name {
-	color: #1f6ed4;
+	color: #fb923c;
 }
 .Main_div .get_test_name_test .get_test_times_container {
 	display: flex;

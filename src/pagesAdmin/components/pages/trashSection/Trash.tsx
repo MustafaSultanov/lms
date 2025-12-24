@@ -129,7 +129,7 @@ const Trash: FC = () => {
 															className={
 																index % 2 === 1
 																	? scss.table_alternate_row
-																	: '' || scss.table_container_second
+																	:  scss.table_container_second
 															}
 														>
 															<td style={{ paddingLeft: '20px' }}>

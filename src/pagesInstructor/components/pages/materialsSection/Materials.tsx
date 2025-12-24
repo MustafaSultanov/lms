@@ -200,8 +200,7 @@ const Materials: FC = () => {
 																					className={
 																						index % 2 === 1
 																							? scss.table_alternate_row
-																							: '' ||
-																								scss.table_container_second
+																							: scss.table_container_second
 																					}
 																					ref={draggableProvider.innerRef}
 																					{...draggableProvider.draggableProps}

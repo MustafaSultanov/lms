@@ -31,7 +31,8 @@ const NotCreated: FC<NotCreatedProps> = ({
 							display: 'flex',
 							gap: '10px',
 							textTransform: 'none',
-							borderRadius: '10px'
+							borderRadius: '10px',
+								background: '#fb923c'
 						}}
 						size="large"
 						onClick={buttonClick}

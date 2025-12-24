@@ -149,9 +149,7 @@ const CoursesTeacher = () => {
 															<tr
 																key={item.id}
 																className={
-																	index % 2 === 1
-																		? scss.TableAlternateRow
-																		: '' || scss.TableContainerSecond
+																	index % 2 === 1 ? scss.TableAlternateRow : scss.TableContainerSecond
 																}
 															>
 																<td>{index + 1 + (openPart - 1) * openPage}</td>

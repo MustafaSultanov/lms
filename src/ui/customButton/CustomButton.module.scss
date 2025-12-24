@@ -4,12 +4,12 @@
 	display: flex !important;
 	align-items: center !important;
 	gap: 8px !important;
-	background: #3772ff !important;
+	background: #fb923c !important;
 	border-radius: 8px !important;
 	padding: 14px 24px !important;
 
 	&:hover {
-		background: #1d60ff !important;
+		background: #fb923c !important;
 	}
 
 	&:disabled {
@@ -66,12 +66,12 @@
 
 // ! SAVE BUTTON
 .SaveButton {
-	background: #3772ff !important;
+	background: #fb923c !important;
 	border-radius: 8px !important;
 	padding: 10px 78px !important;
 
 	&:hover {
-		background: #1d60ff !important;
+		background: #fb923c !important;
 	}
 
 	&:disabled {
@@ -85,13 +85,13 @@
 .CancelButton {
 	padding: 10px 14px !important;
 	background: #ffffff !important;
-	border: 1.5px solid #3772ff !important;
-	color: #3772ff !important;
+	border: 1.5px solid #fb923c !important;
+	color: #fb923c !important;
 	border-radius: 8px !important;
 
 	&:hover {
-		border: 1.5px solid #1d60ff !important;
-		color: #1d60ff !important;
+		border: 1.5px solid #fb923c !important;
+		color: #fb923c !important;
 	}
 
 	&:disabled {

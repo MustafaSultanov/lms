@@ -2,8 +2,8 @@ import { links } from '@/src/utils/routes';
 import scss from './Header.module.scss';
 import { FC, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import peaksoft from '@/src/assets/header-logo.png';
-import peaksoft2 from '@/src/assets/pealsoft.jpg';
+// import peaksoft from '@/src/assets/header-logo.png';
+// import peaksoft2 from '@/src/assets/pealsoft.jpg';
 import { IconAlignLeft } from '@tabler/icons-react';
 
 interface LayoutProps {
@@ -64,7 +64,7 @@ const Header: FC<LayoutProps> = ({ isOpen, setIsOpen }) => {
 				</button>
 				<ul>
 					<div className={scss.peaksoft_img} onClick={handleNavigate}>
-						<img
+						{/* <img
 							className={
 								isOpen
 									? `${scss.peaksoft1_url}`
@@ -81,7 +81,16 @@ const Header: FC<LayoutProps> = ({ isOpen, setIsOpen }) => {
 							}
 							src={peaksoft2}
 							alt=""
-						/>
+						/> */}
+						<h1
+							className={
+								isOpen
+									? `${scss.peaksoft1_url}`
+									: `${scss.peaksoft1_url} ${scss.active}`
+							}
+						>
+							Okurmen
+						</h1>
 					</div>
 					{/* //! admin */}
 					{pathname.startsWith('/admin') && (

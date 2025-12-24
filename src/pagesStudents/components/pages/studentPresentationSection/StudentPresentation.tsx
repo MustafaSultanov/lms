@@ -47,9 +47,9 @@ const StudentPresentation = () => {
 											sx={{
 												borderRadius: '8px',
 												textTransform: 'capitalize',
-												background: '#0000ff7f',
+												background: '#fb923c',
 												'&:hover': {
-													background: '#0000ffb2'
+													background: '#fb923c'
 												}
 											}}
 											size="medium"

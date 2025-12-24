@@ -156,7 +156,7 @@ const Teacher = () => {
 																	className={
 																		index % 2 === 1
 																			? scss.TableAlternateRow
-																			: '' || scss.TableContainerSecond
+																			:  scss.TableContainerSecond
 																	}
 																>
 																	<td>

@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react';
 import { useForm, Controller, SubmitHandler } from 'react-hook-form';
 import scss from './Login.module.scss';
-import Logo from '@/src/assets/svgs/logo.svg';
+// import Logo from '@/src/assets/svgs/logo.svg';
 import { IconClosed, IconOpen_Eye } from '@/src/assets/icons';
 import ButtonSave from '@/src/ui/customButton/ButtonSave';
 import { useNavigate } from 'react-router-dom';
@@ -106,7 +106,8 @@ const Login: FC = () => {
 			<div className={scss.content}>
 				<div className={scss.LoginLogoBlue}>
 					<div className={scss.Logos}>
-						<img src={Logo} alt="#" />
+						{/* <img src={Logo} alt="#" /> */}
+						<h1>Okurmen</h1>
 						<img src={MenLogo} alt="#" />
 					</div>
 				</div>
@@ -114,7 +115,7 @@ const Login: FC = () => {
 					<div className={scss.LoginWhiteElements}>
 						<h1 className={scss.WelcomeMedia}>Добро пожаловать:</h1>
 						<h1 className={scss.PeakSoftMedia}>
-							в <span className={scss.title_red}>PEAKSOFT LMS</span>!
+							в <span className={scss.title_red}> Okurmen</span>!
 						</h1>
 						<form
 							style={{ maxWidth: '540px', width: '100%', position: 'relative' }}

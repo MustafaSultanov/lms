@@ -60,9 +60,9 @@ const SupHeaderCourses = () => {
 						PaperProps={{
 							style: {
 								boxShadow: 'none',
-								border: '1px solid #336fff',
+								border: '1px solid #fb923cff',
 								width: '200px',
-								background: '#dde9f9',
+								background: '#feebcb',
 								borderRadius: '10px'
 							}
 						}}
@@ -75,7 +75,7 @@ const SupHeaderCourses = () => {
 							style={{
 								display: 'flex',
 								gap: '10px',
-								color: '#1976d2',
+								color: '#fb923c',
 								fontSize: '18px',
 								fontWeight: '600',
 								alignItems: 'center'
@@ -119,9 +119,9 @@ const SupHeaderCourses = () => {
 						PaperProps={{
 							style: {
 								boxShadow: 'none',
-								border: '1px solid #336fff',
+								border: '1px solid #fb923cff',
 								width: '200px',
-								background: '#dde9f9',
+								background: '#feebcb',
 								borderRadius: '10px',
 								paddingBottom:"20px"
 							}
@@ -135,7 +135,7 @@ const SupHeaderCourses = () => {
 							style={{
 								display: 'flex',
 								gap: '10px',
-								color: '#1976d2',
+								color: '#fb923cd2',
 								fontSize: '18px',
 								fontWeight: '600',
 								alignItems: 'center'
@@ -192,9 +192,9 @@ const SupHeaderCourses = () => {
 						PaperProps={{
 							style: {
 								boxShadow: 'none',
-								border: '1px solid #336fff',
+								border: '1px solid #fb923cff',
 								width: '200px',
-								background: '#dde9f9',
+								background: '#feebcb',
 								borderRadius: '10px'
 							}
 						}}
@@ -204,7 +204,7 @@ const SupHeaderCourses = () => {
 							style={{
 								display: 'flex',
 								gap: '10px',
-								color: '#1976d2',
+								color: '#fb923cd2',
 								fontSize: '18px',
 								fontWeight: '600',
 								alignItems: 'center'
@@ -243,9 +243,9 @@ const SupHeaderCourses = () => {
 						PaperProps={{
 							style: {
 								boxShadow: 'none',
-								border: '1px solid #336fff',
+								border: '1px solid #fb923cff',
 								width: '200px',
-								background: '#dde9f9',
+								background: '#f9f0dd',
 								borderRadius: '10px'
 							}
 						}}
@@ -258,7 +258,7 @@ const SupHeaderCourses = () => {
 							style={{
 								display: 'flex',
 								gap: '10px',
-								color: '#1976d2',
+								color: '#fb923cd2',
 								fontSize: '18px',
 								fontWeight: '600',
 								alignItems: 'center'
@@ -297,9 +297,9 @@ const SupHeaderCourses = () => {
 						PaperProps={{
 							style: {
 								boxShadow: 'none',
-								border: '1px solid #336fff',
+								border: '1px solid #fb923cff',
 								width: '200px',
-								background: '#dde9f9',
+								background: '#f9efdd',
 								borderRadius: '10px'
 							}
 						}}
@@ -312,7 +312,7 @@ const SupHeaderCourses = () => {
 							style={{
 								display: 'flex',
 								gap: '10px',
-								color: '#1976d2',
+								color: '#fb923cd2',
 								fontSize: '18px',
 								fontWeight: '600',
 								alignItems: 'center'
